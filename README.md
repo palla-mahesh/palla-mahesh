@@ -277,47 +277,14 @@ Participating in a remote internship program focused on cybersecurity and ethica
 
 ## 🐍 Neon Contribution Snake
 
-name: Generate Contribution Snake Animation
+<div align="center">
+  <!--  NEON SNAKE ANIMATION -->
+  <a href="https://github.com/palla-mahesh">
+    <img src="https://raw.githubusercontent.com/palla-mahesh/palla-mahesh/output/github-user-contribution-grid-snake-dark.svg" alt="Neon Snake Animation" />
+  </a>
+</div>
 
-on:
-  # run automatically every 24 hours
-  schedule:
-    - cron: "0 0 * * *"
-  
-  # allows to manually run the Job at any time
-  workflow_dispatch:
-  
-  # run on every push on the master/main branch
-  push:
-    branches:
-      - main
-      - master
-
-jobs:
-  generate:
-    permissions:
-      contents: write
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-
-    steps:
-      # generates a game of snake from a github user contributions graph with custom neon purple palette
-      - name: generate github-user-contribution-grid-snake.svg
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-user-contribution-grid-snake.svg
-            dist/github-user-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#9D4EDD&color_dots=#161b22,#2e1065,#581c87,#7e22ce,#c084fc
-
-      # push the content of dist to the output branch
-      - name: push github-user-contribution-grid-snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+<hr />
 
 ## 📌 My Development Workflow
 
