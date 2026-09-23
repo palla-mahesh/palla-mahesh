@@ -275,15 +275,34 @@ Participating in a remote internship program focused on cybersecurity and ethica
 
 ---
 
-## 🐍 Sleek Purple Neon Contribution Snake
+## 🐍 Sleek Neon Contribution Snake
+
 <div align="center">
-  <!-- SLEEK PURPLE NEON SNAKE ANIMATION -->
-  <a href="https://github.com/palla-mahesh">
-    <img src="https://raw.githubusercontent.com/palla-mahesh/palla-mahesh/output/github-user-contribution-grid-snake-dark.svg" alt="Sleek Purple Neon Snake Animation" />
-  </a>
+
+<a href="https://github.com/palla-mahesh">
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/palla-mahesh/palla-mahesh/output/github-snake-dark.svg">
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/palla-mahesh/palla-mahesh/output/github-snake.svg">
+  <img
+    src="https://raw.githubusercontent.com/palla-mahesh/palla-mahesh/output/github-snake.svg"
+    width="95%"
+    alt="Palla Mahesh GitHub Contribution Snake"/>
+</picture>
+
+</a>
+
+<br/>
+
+<sub>🐍 Automatically generated from my GitHub contribution activity.</sub>
+
 </div>
 
-<hr />
+---
 
 
 ## 📌 My Development Workflow
