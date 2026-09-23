@@ -43,7 +43,7 @@
 
 </div>
 
-> ⚡ **`mahesh@kali:~$ whoami --verbose`**
+> ⚡ **`mahesh@kali:~$ whoami --Mahesh`**
 >
 > 👤 **Name:** Palla Venkata Mahesh  
 > 🎓 **Role:** BE Computer Science Engineering Student  
