@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- PREMIUM CYBERSECURITY HEADER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1B2A,50:7B2CBF,100:00D2FF&height=230&section=header&text=Hi%20there,%20I'm%20Palla%20Mahesh%20⚡&fontSize=42&fontColor=ffffff&fontAlignY=38&animation=twinkling" width="100%" alt="Palla Mahesh Header"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1B2A,50:7B2CBF,100:00D2FF&height=230&section=header&text=Hi%20there,%20I'm%20Palla%20Mahesh%20⚡&fontSize=42&fontColor=ffffff&fontAlignY=38&animation=twinkling" width="100%" alt="Palla Venkata Mahesh Header"/>
 
 <br/>
 
