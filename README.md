@@ -275,16 +275,16 @@ Participating in a remote internship program focused on cybersecurity and ethica
 
 ---
 
-## 🐍 Neon Contribution Snake
-
+## 🐍 Sleek Purple Neon Contribution Snake
 <div align="center">
-  <!--  NEON SNAKE ANIMATION -->
+  <!-- SLEEK PURPLE NEON SNAKE ANIMATION -->
   <a href="https://github.com/palla-mahesh">
-    <img src="https://raw.githubusercontent.com/palla-mahesh/palla-mahesh/output/github-user-contribution-grid-snake-dark.svg" alt="Neon Snake Animation" />
+    <img src="https://raw.githubusercontent.com/palla-mahesh/palla-mahesh/output/github-user-contribution-grid-snake-dark.svg" alt="Sleek Purple Neon Snake Animation" />
   </a>
 </div>
 
 <hr />
+
 
 ## 📌 My Development Workflow
 
