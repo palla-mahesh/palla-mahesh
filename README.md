@@ -291,7 +291,7 @@ Participating in a remote internship program focused on cybersecurity and ethica
   <img
     src="https://raw.githubusercontent.com/palla-mahesh/palla-mahesh/output/github-snake.svg"
     width="95%"
-    alt="Palla Mahesh GitHub Contribution Snake"/>
+    alt="palla-mahesh GitHub Contribution Snake"/>
 </picture>
 
 </a>
