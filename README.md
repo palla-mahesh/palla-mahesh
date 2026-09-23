@@ -38,7 +38,7 @@
 <div align="left">
 
 <a href="https://github.com/palla-mahesh">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&pause=1000&color=00D2FF&center=false&vCenter=true&repeat=true&width=500&height=35&lines=%3E_whoami+--verbose" alt="whoami command"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&pause=1000&color=00D2FF&center=false&vCenter=true&repeat=true&width=500&height=35&lines=%3E_whoami+--Mahesh" alt="whoami command"/>
 </a>
 
 </div>
