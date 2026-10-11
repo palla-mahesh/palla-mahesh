@@ -52,6 +52,19 @@ I'm **Palla Venkata Mahesh**, a BE Computer Science Engineering student interest
   <img src="https://img.shields.io/badge/PortSwigger-FF6633?style=flat-square" alt="PortSwigger" />
 </p>
 
+## 🐍 Contribution Snake
+
+The contribution snake is generated automatically by GitHub Actions and published to the `output` branch. It may take the first successful workflow run before the image appears.
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/palla-mahesh/palla-mahesh/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/palla-mahesh/palla-mahesh/output/github-snake.svg" />
+  <img src="https://raw.githubusercontent.com/palla-mahesh/palla-mahesh/output/github-snake.svg" width="95%" alt="Animated GitHub contribution snake for Palla Mahesh" />
+</picture>
+
+</div>
 ### Programming, Development & Data
 <p>
   <img src="https://skillicons.dev/icons?i=python,java,c,cpp,js,html,css,react,nodejs,express,flask,fastapi,mysql,mongodb,sqlite,git,github,docker,linux,vscode&perline=10" alt="Programming and development tools" />
@@ -67,19 +80,6 @@ I'm **Palla Venkata Mahesh**, a BE Computer Science Engineering student interest
 | **Tools & Platforms** | Git, GitHub, Docker, VS Code, Linux |
 | **AI** | Artificial Intelligence, Generative AI, AI-assisted security workflows |
 
-## 🐍 Contribution Snake
-
-The contribution snake is generated automatically by GitHub Actions and published to the `output` branch. It may take the first successful workflow run before the image appears.
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/palla-mahesh/palla-mahesh/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/palla-mahesh/palla-mahesh/output/github-snake.svg" />
-  <img src="https://raw.githubusercontent.com/palla-mahesh/palla-mahesh/output/github-snake.svg" width="95%" alt="Animated GitHub contribution snake for Palla Mahesh" />
-</picture>
-
-</div>
 
 ## 🚀 Featured Projects
 
