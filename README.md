@@ -67,6 +67,20 @@ I'm **Palla Venkata Mahesh**, a BE Computer Science Engineering student interest
 | **Tools & Platforms** | Git, GitHub, Docker, VS Code, Linux |
 | **AI** | Artificial Intelligence, Generative AI, AI-assisted security workflows |
 
+## 🐍 Contribution Snake
+
+The contribution snake is generated automatically by GitHub Actions and published to the `output` branch. It may take the first successful workflow run before the image appears.
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/palla-mahesh/palla-mahesh/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/palla-mahesh/palla-mahesh/output/github-snake.svg" />
+  <img src="https://raw.githubusercontent.com/palla-mahesh/palla-mahesh/output/github-snake.svg" width="95%" alt="Animated GitHub contribution snake for Palla Mahesh" />
+</picture>
+
+</div>
+
 ## 🚀 Featured Projects
 
 ### 🔎 Phishing Email Detection & Awareness System
@@ -148,20 +162,6 @@ I'm interested in exploring how AI and automation can support defensive security
 <a href="https://github.com/palla-mahesh">
   <img src="https://streak-stats.demolab.com?user=palla-mahesh&theme=tokyonight&hide_border=true" alt="GitHub contribution streak" />
 </a>
-
-</div>
-
-## 🐍 Contribution Snake
-
-The contribution snake is generated automatically by GitHub Actions and published to the `output` branch. It may take the first successful workflow run before the image appears.
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/palla-mahesh/palla-mahesh/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/palla-mahesh/palla-mahesh/output/github-snake.svg" />
-  <img src="https://raw.githubusercontent.com/palla-mahesh/palla-mahesh/output/github-snake.svg" width="95%" alt="Animated GitHub contribution snake for Palla Mahesh" />
-</picture>
 
 </div>
 
