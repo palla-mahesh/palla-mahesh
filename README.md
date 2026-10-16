@@ -54,50 +54,17 @@ I'm **Palla Venkata Mahesh**, a BE Computer Science Engineering student interest
 
 ## 🐍 Contribution Snake
 
-name: Generate Contribution Snake
+The contribution snake is generated automatically by GitHub Actions and published to the `output` branch. It may take the first successful workflow run before the image appears.
 
-on:
-  # Regenerate daily and whenever the profile README changes.
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-  push:
-    branches:
-      - main
-    paths:
-      - "README.md"
-      - ".github/workflows/snake.yml"
+<div align="center">
 
-permissions:
-  contents: write
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/palla-mahesh/palla-mahesh/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/palla-mahesh/palla-mahesh/output/github-snake.svg" />
+  <img src="https://raw.githubusercontent.com/palla-mahesh/palla-mahesh/output/github-snake.svg" width="95%" alt="Animated GitHub contribution snake for Palla Mahesh" />
+</picture>
 
-concurrency:
-  group: contribution-snake
-  cancel-in-progress: true
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-
-    steps:
-      - name: Generate light and dark contribution snake
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: palla-mahesh
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-
-      - name: Publish generated SVGs to output branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-          keep_history: false
-          jekyll: false
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+</div>
 
 ### Programming, Development & Data
 <p>
