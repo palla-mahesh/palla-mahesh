@@ -54,19 +54,13 @@ I'm **Palla Venkata Mahesh**, a BE Computer Science Engineering student interest
 
 ## 🐍 Contribution Snake
 
-    
-  
-name: Update GitHub Contribution Snake
+name: Generate Contribution Snake
 
 on:
-  # Run every day at 00:17 UTC (05:47 IST).
+  # Regenerate daily and whenever the profile README changes.
   schedule:
-    - cron: "17 0 * * *"
-
-  # Allow manual runs from the Actions tab.
+    - cron: "0 0 * * *"
   workflow_dispatch:
-
-  # Refresh when the workflow or profile README changes on main.
   push:
     branches:
       - main
@@ -83,22 +77,19 @@ concurrency:
 
 jobs:
   generate:
-    name: Generate and publish contribution snake
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
     steps:
-      - name: Generate contribution snake themes
+      - name: Generate light and dark contribution snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: palla-mahesh
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
-            dist/github-snake-ocean.svg?palette=github-ocean
-            dist/github-snake-purple.svg?palette=github-purple
 
-      - name: Publish SVGs to the output branch
+      - name: Publish generated SVGs to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
@@ -107,7 +98,6 @@ jobs:
           jekyll: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
 
 ### Programming, Development & Data
 <p>
