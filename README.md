@@ -54,17 +54,62 @@ I'm **Palla Venkata Mahesh**, a BE Computer Science Engineering student interest
 
 ## 🐍 Contribution Snake
 
-The contribution snake is generated automatically by GitHub Actions and published to the `output` branch. It may take the first successful workflow run before the image appears.
 
-<div align="center">
+    
+  
+name: Update GitHub Contribution Snake
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/palla-mahesh/palla-mahesh/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/palla-mahesh/palla-mahesh/output/github-snake.svg" />
-  <img src="https://raw.githubusercontent.com/palla-mahesh/palla-mahesh/output/github-snake.svg" width="95%" alt="Animated GitHub contribution snake for Palla Mahesh" />
-</picture>
+on:
+  # Run every day at 00:17 UTC (05:47 IST).
+  schedule:
+    - cron: "17 0 * * *"
 
-</div>
+  # Allow manual runs from the Actions tab.
+  workflow_dispatch:
+
+  # Refresh when the workflow or profile README changes on main.
+  push:
+    branches:
+      - main
+    paths:
+      - "README.md"
+      - ".github/workflows/snake.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: contribution-snake
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    name: Generate and publish contribution snake
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Generate contribution snake themes
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: palla-mahesh
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake-ocean.svg?palette=github-ocean
+            dist/github-snake-purple.svg?palette=github-purple
+
+      - name: Publish SVGs to the output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: false
+          jekyll: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+
 ### Programming, Development & Data
 <p>
   <img src="https://skillicons.dev/icons?i=python,java,c,cpp,js,html,css,react,nodejs,express,flask,fastapi,mysql,mongodb,sqlite,git,github,docker,linux,vscode&perline=10" alt="Programming and development tools" />
