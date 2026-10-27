@@ -52,19 +52,27 @@ I'm **Palla Venkata Mahesh**, a BE Computer Science Engineering student interest
   <img src="https://img.shields.io/badge/PortSwigger-FF6633?style=flat-square" alt="PortSwigger" />
 </p>
 
-## 🐍 Contribution Snake
 
-The contribution snake is generated automatically by GitHub Actions and published to the `output` branch. It may take the first successful workflow run before the image appears.
+## 🐍 Daily GitHub Contribution Snake
 
-<div align="center">
+<p align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/palla-mahesh/palla-mahesh/output/github-snake-dark.svg" />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/palla-mahesh/palla-mahesh/output/github-snake.svg" />
+    <img
+      src="https://raw.githubusercontent.com/palla-mahesh/palla-mahesh/output/github-snake.svg"
+      width="95%"
+      alt="GitHub contribution snake for Palla Mahesh" />
+  </picture>
+</p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/palla-mahesh/palla-mahesh/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/palla-mahesh/palla-mahesh/output/github-snake.svg" />
-  <img src="https://raw.githubusercontent.com/palla-mahesh/palla-mahesh/output/github-snake.svg" width="95%" alt="Animated GitHub contribution snake for Palla Mahesh" />
-</picture>
-
-</div>
+<p align="center">
+  <i>Automatically regenerated daily using GitHub Actions.</i>
+</p>
 
 ### Programming, Development & Data
 <p>
