@@ -1,5 +1,4 @@
 name: Generate Contribution Snake
-
 on:
   # Regenerate daily and whenever the profile README changes.
   schedule:
